@@ -18,29 +18,37 @@ header {
   background-image: linear-gradient(white, #f2f2f2); }
 
 .header-container {
-  height: 50px;
   color: white;
-  margin: 0 20px;
+  padding: 1em;
   display: flex;
   align-items: center;
   justify-content: space-between; }
 
 .hero {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 5em; }
   .hero .copy {
     margin-bottom: 2.5em; }
   .hero__image {
     bottom: 0;
     height: 330px;
     background: url("/static/images/image-mockups.png") center bottom no-repeat, url("/static/images/bg-intro-mobile.svg") center no-repeat;
-    background-size: 330px, cover;
-    margin: 0 -2em; }
+    background-size: 345px, cover;
+    margin: 0 -2em;
+    margin-bottom: 1.2em; }
 
 .copy {
   line-height: var(--wraperSpace); }
 
 .title__h1 {
   font-size: 2.5em;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--darkBlue);
+  margin: 0;
+  margin-bottom: 0.5em; }
+.title__h2 {
+  font-size: 1.5em;
   font-weight: 400;
   line-height: 1.2;
   color: var(--darkBlue);
@@ -57,5 +65,25 @@ header {
 
 .wrapper {
   padding: 0 2em; }
+
+.is-hidden {
+  display: none !important; }
+
+.why {
+  padding-top: 5em;
+  text-align: center;
+  background: var(--gray); }
+  .why .copy {
+    margin-bottom: 4em; }
+  .why__item img {
+    margin-bottom: 1.5em; }
+
+.footer {
+  margin: 0;
+  width: 100%;
+  border: 2px solid red;
+  background: var(--darkBlue);
+  color: var(--white);
+  padding: 0 -2em; }
 
 /*# sourceMappingURL=estilos.css.map */
